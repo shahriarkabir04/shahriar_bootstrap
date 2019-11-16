@@ -2,18 +2,223 @@
 
  /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+	/*Social*/
+	#top_header_area ul.social {
+    text-align: left;
+	}
+	/*Logo*/
+	.logo{
+    width: 60%;
+ 	}
+ 	/*slider Text*/
+ 	.slider {
+    padding: 60px 0px 30px;
+	}
+ 	.slider-text h3 {
+ 	font-weight: 800;
+    font-size: 17px;
+	}
+	p{
+    font-size: 12px;
+    line-height: 1.25em;
+    font-weight: 300;
+    margin-top: 20px;
+	}
+	/*button*/
+	.mybtn-3 {
+	margin-top: 15px;
+    font-size: 13px;
+	}
+	.cid {
+    bottom: -48px;
+	}
+	/*Feature Section*/
+	#featured_area {
+    padding-top: 40px;
+    padding-bottom: 15px;
+	}
+	/*Latest Course*/
+	#latest_cource {
+     padding-top: 50px;
+     padding-bottom: 20px; 
+	}
+	#latest_cource .child_cource {
+    margin-bottom: 50px;
+	}
+	/*Our clients*/
+	#our_clients {
+    padding-top: 50px;
+    padding-bottom: 25px;
+	}
+	/*Footer*/
+	#footer_area {
+    padding-top: 40px;
+    padding-bottom: 20px;
+	}
+	#footer_area .l_course {
+	padding:10px;
+    padding-left: 0px;
+	}
+	#footer_area h4 {
+    margin-bottom: 12px;
+	}
+	#footer_area .popular_tag {
+	padding:10px;
+    padding-left: 0px;
+	}	
+	#footer_area ul.tagcloud li a {
+    padding: 2px 4px;
+    font-size: 12px;
+	}
+	#footer_area .follow_us {
+	padding:10px;
+	}
+	/*Copyright*/
+	#copyright_area p {
+	text-align: center; 
+	}
+	#copyright_area ul li a {
+    padding: 0px 0px;
+	}
+	#copyright_area ul {
+    text-align: center;
+	}
  }
 
  /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+	/*Social*/
+	#top_header_area ul.social {
+    text-align: center;
+	}
+	/*Logo*/
+	.logo{
+    width: 70%;
+ 	}
+ 	/*Slider_text*/
+ 	.slider-text h3 {
+    margin-bottom: 20px;
+	}
+	.slider-text p {
+    margin-bottom: 25px;
+	}
+	.slider-text {
+    margin-top: 0px;
+    margin-bottom: 60px;
+	}
+	.cid li {
+    margin-bottom: 0px;
+	}
+	/*Feature Section*/
+	#featured_area {
+    padding-top: 50px;
+    padding-bottom: 25px;
+	}
+	/*Latest Course*/
+	#latest_cource {
+     padding: 0;
+	}
+	#latest_cource .child_cource {
+    margin-bottom: 50px;
+	}
+	/*footer area*/
+	#footer_area{
+		padding-bottom: 25px;
+	}
+	#footer_area .about_text h4{margin-bottom: 5px;}
+	#footer_area .about_text p{font-size:11px; margin-bottom: 7px;
+	}
+	#footer_area .l_course {
+    padding-left: 80px;
+	}
+	#footer_area .popular_tag {
+	margin-top: 20px;
+    padding-left: 0px;
+	}
+	#footer_area .follow_us{
+	margin-top: 20px;
+	padding-left: 80px;
+	}
+	#footer_area ul.social li {
+    margin-right: 7px;
+	}
+	/*Copyright*/
+	#copyright_area p {
+	text-align: center; 
+	}
+	#copyright_area ul li a {
+    padding: 0px 0px;
+	}
+	#copyright_area ul {
+    text-align: center;
+	}
  }
 
  /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+	/*Social*/
+	#top_header_area ul.social {
+    margin-top: 25px;
+	}
+	/*Logo*/
+	img {
+    width: 70%;
+ 	}
+ 	/*P-text*/
+ 	p {
+    font-size: 12px;
+    font-weight: 300;
+	}
+	/*Feature Section*/
+	#featured_area {
+    padding-top: 70px;
+    padding-bottom: 35px;
+	}
+	/*latest course*/
+	#latest_cource {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+	/*Footer_area*/
+	#footer_area{
+		padding-bottom: 25px;
+	}
+	#footer_area .l_course {
+    padding-left: 20px;
+	}
+	#footer_area ul.social li {
+    margin-right: 7px;
+	}
+	/*Copyright*/
+	#copyright_area p {
+	text-align: center; 
+	}
+	#copyright_area ul li a {
+    padding: 0px 0px;
+	}
+	#copyright_area ul {
+    text-align: center;
+	}
  }
 
  /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
+	/*Social*/
+	#top_header_area ul.social {
+    margin-top: 25px;
+	}
+	/*feature section*/
+	#featured_area {
+    padding-top: 40px;
+    padding-bottom: 20px;
+	}
+	/*Copyright */
+	#copyright_area ul {
+    margin-right: 50px;
+	}
+	#copyright_area ul li a {
+    padding: 0px 0;
+	}
 }
 
  /*Extra large devices (large desktops, 1200px and up)*/
